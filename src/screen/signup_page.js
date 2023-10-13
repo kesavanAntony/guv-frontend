@@ -22,7 +22,7 @@ const SignUpScreen = ()=>{
        console.log(value)
     //    if(error.name===""&&error.email===""&&error.password===""&&error.confirm_password===""){
        
-       const url="http://localhost:4000/signup";
+       const url="https://backend-eu41.onrender.com/signup";
        axios.post(url,value)
        .then((response)=>{
         const data=response.data
